@@ -61,7 +61,9 @@ body{
 }
 
 .footer {
-    position: sticky;
+    position: fixed;
+    bottom: 0;
+    left: 0;
     width: 100%;
     background-color: darkslategrey;
     color: white;
