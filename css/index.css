@@ -1,3 +1,7 @@
+body{
+    background-color: teal;
+}
+
 .brandLogo{
     font-weight: 600;
     color: white;
@@ -6,8 +10,6 @@
     letter-spacing: 4px !important
 }
 .parentDiv{
-    background-color: teal;
-    min-height: 50rem;
     padding: 0 !important;
     color: white;
     font-family: 'Lato', sans-serif;
@@ -31,6 +33,10 @@
     width: 67% !important;
     height: 22rem !important;
     overflow: auto;
+
+}
+.carousel{
+    z-index: 0;
 }
 .downloadTextDiv {
     text-align: center;
@@ -54,7 +60,7 @@
 }
 
 .footer {
-    position: fixed;
+    position: sticky;
     left: 0;
     bottom: 0;
     width: 100%;
