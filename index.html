@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/index.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUIZZLER</title>
+    
+  <script src="https://kit.fontawesome.com/19bdd19522.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- Google fonts links below -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container parentDiv">
+        <nav class="navbar navBarClass justify-content-center">
+            <a class="navbar-brand brandLogo" href="#">QUIZZLER</a>
+        </nav>
+
+        <div class="container-fluid introDiv">
+            <h5 class="indroHeading">Quizzler is an android application made on <a class="introLinks" href="https://flutter.dev/">flutter</a> and 
+                <a class="introLinks" href="https://opentdb.com/">Open trivia api</a></h5>
+        </div>
+
+
+        <div class="container-fluid carouselDivParent">
+            <div id="demo" class="carousel slide" data-ride="carousel">
+
+                <!-- Indicators -->
+                <ul class="carousel-indicators">
+                  <li data-target="#demo" data-slide-to="0" class="active"></li>
+                  <li data-target="#demo" data-slide-to="1"></li>
+                  <li data-target="#demo" data-slide-to="2"></li>
+                  <li data-target="#demo" data-slide-to="3"></li>
+                </ul>
+              
+                <!-- The slideshow -->
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="assets/startingPage.jpeg" alt="Start Quiz">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/mcqType.jpeg" alt="Multiple Choice Question">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/checkAnswer.jpeg" alt="Check Answer">
+                  </div>
+
+                  <div class="carousel-item">
+                    <img src="assets/trueFalse.jpeg" alt="Boolean Type Question">
+                  </div>
+
+                </div>
+              
+                <!-- Left and right controls -->
+                <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                  <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#demo" data-slide="next">
+                  <span class="carousel-control-next-icon"></span>
+                </a>
+              
+              </div>
+        </div>
+
+        <div class="container-fluid downloadTextDiv">
+            <h6 class="downloadText">Download the application and enjoy different Categories of quiz with different Difficulty Mode </h6>
+        </div>
+
+        <div class="container-fluid downloadButtonDiv">
+            <a href="assets/QuizzlerApp.apk" download rel="noopener noreferrer" target="_blank"><button class="btn btn-primary"><i class="fa fa-download" aria-hidden="true"></i> Download APK</button></a>
+        </div>
+        <footer class="footer">
+            <p class='footerText'>Made with <i class="fa fa-heart" aria-hidden="true"></i> by <br>
+<a class="introLinks" href="https://meau.in/rishabh">Rishabh</a> & <a class="introLinks" href="https://meau.in/atishay">Atishay</a></p>
+        </footer>
+    </div>
+
+</body>
+</html>
