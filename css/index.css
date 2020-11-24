@@ -1,5 +1,5 @@
 body{
-    background-color: teal;
+    background-color: teal !important;
 }
 
 .brandLogo{
@@ -19,7 +19,7 @@ body{
 }
 .introDiv{
     text-align: center;
-    margin-top: 2.5rem;
+    margin-top: 1.5rem;
 }
 .indroHeading{
     font-size: 19px;
@@ -28,11 +28,11 @@ body{
     color: wheat !important;
 }
 .carouselDivParent{
-    margin-top: 2rem;
+    margin-top: 1rem;
     border-radius: 5px;
-    width: 67% !important;
+    width: 55% !important;
     height: 22rem !important;
-    overflow: auto;
+    overflow: hidden;
 
 }
 .carousel{
@@ -41,7 +41,8 @@ body{
 .downloadTextDiv {
     text-align: center;
     padding: 3% !important;
-    margin-top: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
     width: 95% !important;
     word-spacing: 1px;
     border-radius: 5px;
@@ -56,13 +57,11 @@ body{
 }
 .downloadButtonDiv{
     text-align: center;
-    margin-top: 1rem;
+    margin-top: 0rem;
 }
 
 .footer {
     position: sticky;
-    left: 0;
-    bottom: 0;
     width: 100%;
     background-color: darkslategrey;
     color: white;
@@ -93,6 +92,22 @@ body{
         border-radius: 5px;
         width: 50% !important;
         height: 22rem !important;
-        overflow: auto;
+        overflow: hidden;
     }
   }
+  @media only screen and (min-width: 375px) {
+    .downloadButtonDiv{
+        text-align: center;
+        margin-top: 1rem;
+    }
+   
+  }
+  @media only screen and (max-width: 350px) {
+  .carouselDivParent {
+    margin-top: 2rem;
+    border-radius: 5px;
+    width: 55% !important;
+    height: 20rem !important;
+    overflow: hidden;
+  }
+}
